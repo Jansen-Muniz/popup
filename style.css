@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  display: block;
+  background-color: darkblue;
+  border: none;
+  border-radius: 4px;
+  height: 2rem;
+  color: aliceblue;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(10, 10, 179, 0.863);
+}
+
+.popup-wrapper {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+.popup {
+  font-family: sans-serif;
+  background-color: white;
+  text-align: center;
+  margin: 15rem auto;
+  padding: 2rem;
+  width: 100%;
+  max-width: 20rem;
+  position: relative;
+}
+
+.popup a {
+  color: white;
+  background-color: blue;
+  text-decoration: none;
+  padding: .3rem;
+  border-radius: .3rem;
+}
+
+.popup a:hover {
+  background-color: rgba(10, 10, 179, 0.863);
+}
+
+.popup-close {
+  position: absolute;
+  top: .6rem;
+  left: 18.5rem;
+  cursor: pointer;
+}
